@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Parts Assistance</title>
+    <style>
+        /* Overall page background */
+        body {
+            font-family: 'Roboto', sans-serif; /* Modern font */
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c; /* Deep space-like background */
+            color: #e0e0e0; /* Light text for contrast */
+        }
+        
+        /* Centered container with futuristic "panel" look */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #2e2e2e; /* Slightly lighter dark background */
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Glowing panel effect */
+            border: 2px solid #3a3a3a; /* Border to mimic control panels */
+        }
+
+        /* Header styling */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #ffcc00; /* Yellow, like the TNG console displays */
+            text-shadow: 0 0 15px rgba(255, 204, 0, 0.7); /* Glowing text effect */
+        }
+
+        /* Individual product section */
+        .product {
+            margin-bottom: 30px;
+            padding: 10px;
+            border-bottom: 2px solid #444; /* Subtle separation */
+        }
+
+        /* Buttons styled like control panel buttons */
+        .product button {
+            background-color: #007bff; /* Blue button */
+            color: white;
+            font-size: 18px;
+            padding: 15px 20px;
+            border: 2px solid #0066cc; /* Blue border for control panel effect */
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        /* Button hover effect (glowing effect) */
+        .product button:hover {
+            background-color: #0056b3;
+            border-color: #00bfff; /* Light blue for hover */
+            box-shadow: 0 0 15px rgba(0, 191, 255, 1); /* Glowing blue */
+        }
+
+        /* Description styling for products */
+        .product-description {
+            font-size: 16px;
+            color: #b0b0b0; /* Lighter gray for readability */
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* Small reminder notes styled with a faint glow */
+        .note {
+            font-size: 14px;
+            color: #ffcc00; /* Yellow like on the control panels */
+            margin-top: 5px;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Glowing effect */
+        }
+        
+        /* Styling for the "control panel" looking layout */
+        .product-description, .note {
+            font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy feel */
+        }
+        
+        /* Create spacing and make the text area look more like a screen */
+        .panel {
+            padding: 20px;
+            background-color: #1f1f1f; /* Darker background for each "panel" */
+            border: 1px solid #444; /* Subtle border effect */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Order Parts Assistance</h1>
+
+        <!-- eBay Part 1 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.ebay.com/itm/186476362779', '_blank')">Order eBay Part 1</button>
+            <div class="product-description">
+                <strong>eBay Part 1:</strong> Nexus 5X 32GB Rooted phone.
+            </div>
+            <div class="note">
+                Reminder: Buy ONE of these.
+            </div>
+        </div>
+
+        <!-- eBay Part 2 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.ebay.com/itm/386475574230', '_blank')">Order eBay Part 2</button>
+            <div class="product-description">
+                <strong>eBay Part 2:</strong> EXVIST 4G LTE Card (E25-AF-LLC).
+            </div>
+            <div class="note">
+                Reminder:Order TWO.
+            </div>
+        </div>
+
+        <!-- Amazon Part 1 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.amazon.com/dp/B0CNPKPX1C?ref=myi_title_dp', '_blank')">Order Amazon Part 1</button>
+            <div class="product-description">
+                <strong>Amazon Part 1:</strong> SD Card Reader USB C. WNXSLOAD Memory Card Reader.
+            </div>
+            <div class="note">
+                Reminder: Order TWO.
+            </div>
+        </div>
+
+        <!-- Amazon Part 2 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.amazon.com/dp/B0B1DVMCQY?ref=myi_title_dp', '_blank')">Order Amazon Part 2</button>
+            <div class="product-description">
+                <strong>Amazon Part 2:</strong> Silicon Power 1TB Superior microSDXC.
+            </div>
+            <div class="note">
+                Reminder: Order Two.
+            </div>
+        </div>
+
+        <!-- Amazon Part 3 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.amazon.com/dp/B07VBV1PY5?ref=myi_title_dp', '_blank')">Order Amazon Part 3</button>
+            <div class="product-description">
+                <strong>Amazon Part 3:</strong> KUXIYANNUSB C to micro USB Adapter (2 pack).
+            </div>
+            <div class="note">
+                Reminder: Order ONE.
+            </div>
+        </div>
+
+        <!-- DigiKey Part 1 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.digikey.com/en/products/detail/adafruit-industries-llc/4198/10230012?s=N4IgTCBcDaIIwFYwA4C0AWOBONA5AIiALoC%2BQA', '_blank')">Order DigiKey Part 1</button>
+            <div class="product-description">
+                <strong>DigiKey Part 1:</strong> CABLE C PLUG TO C PLUG 0.5".
+            </div>
+            <div class="note">
+                Reminder: Put the number one in the QUANTITY box.
+            </div>
+        </div>
+
+        <!-- DigiKey Part 2 -->
+        <div class="product panel">
+            <button onclick="window.open('https://www.digikey.com/en/products/detail/startech-com/uuusbotg8in/21397494', '_blank')">Order DigiKey Part 2</button>
+            <div class="product-description">
+                <strong>DigiKey Part 2:</strong> 8" MICRO USB OTG CABLE.
+            </div>
+            <div class="note">
+                Reminder: Put the number two in the QUANTITY box.
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
